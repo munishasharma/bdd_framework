@@ -1,0 +1,198 @@
+#HomePage
+HomePage_RegisterationLink: '/html/body/div[3]/div[1]/div/div/div[2]/div/div[2]/a'
+#HomePage_loggedIn_Message: '//*[@class="alert alert-success ng-scope ng-binding"]'
+HomePage_loggedIn_Message: '/html/body/div[3]/div[1]/div/div/div[2]/div/div'
+RegistrationPage_LoginLink: '/html/body/div[3]/div[1]/div/div/div/div[6]/a'
+HomePage_LoginLink: '/html/body/div[3]/div[1]/div/div/div[2]/div/div[1]/a'
+
+
+#RegisterPage
+RegistrationPage_Username: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/input'
+RegistrationPage_Username51Error: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/div/p[3]'
+RegistrationPage_UsernameEmptyError: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/div/p[1]'
+RegistrationPage_UsernameUppercaseError: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/div/p[4]'
+
+RegistrationPage_EmailField: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/input'
+RegistrationPage_EmailFieldInvalidError: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/div/p[2]'
+RegistrationPage_EmailFieldEmptyError: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/div/p[1]'
+RegistrationPage_EmailFieldLengthError: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/div/p[3]'
+
+RegistrationPage_PasswordField: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/input'
+RegistrationPage_PasswordFieldEmptyError: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/div[1]/p[1]'
+RegistrationPage_PasswordField5Error: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/div[1]/p[2]'
+RegistrationPage_PasswordField51Error: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/div[1]/p[3]'
+RegistrationPage_PasswordFieldInvalidError: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/div[1]/p[4]'
+
+RegisterationPage_ConfirmPassword: '/html/body/div[3]/div[1]/div/div/div/form/div[4]/input'
+RegisterationPage_ConfirmPassword5Error: '/html/body/div[3]/div[1]/div/div/div/form/div[4]/div/p[2]'
+RegisterationPage_ConfirmPassword51Error: '/html/body/div[3]/div[1]/div/div/div/form/div[4]/div/p[3]'
+RegisterationPage_ConfirmPasswordEmptyError: '/html/body/div[3]/div[1]/div/div/div/form/div[4]/div/p[1]'
+RegisterationPage_ConfirmPasswordInvalidError: '/html/body/div[3]/div[1]/div/div/div/form/div[4]/div/p[4]'
+
+RegisterationPage_SubmitButton: '/html/body/div[3]/div[1]/div/div/div/form/button'
+RegisterationPage_SuccessMessage: '/html/body/div[3]/div[1]/div/div/div/div[2]'
+RegisterationPage_ErrorMessage: '/html/body/div[3]/div[1]/div/div/div/div[3]'
+RegistrationPage_PasswordFieldMismatch: '/html/body/div[3]/div[1]/div/div/div/div[5]'
+
+
+#Login Page
+LoginPage_UsernameField: '//*[@id="username"]'
+LoginPage_PasswordField: '//*[@type="password"]'
+submitButton: '//*[@class="btn btn-primary ng-scope"]'
+LoginPage_AutomaticCheckBox: '//*[@id="rememberMe"]'
+
+#Change Password Page
+ChangePasswordPage_NewPassword: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/input'
+ConfirmPassword: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/input'
+ChangePasswordPage_SavePassword: '/html/body/div[3]/div[1]/div/div/div/form/button'
+ChangePasswordPage_SuccessPasswordChange: '/html/body/div[3]/div[1]/div/div/div/div[2]'
+ChangePasswordPage_ErrorMessagePassword: '/html/body/div[3]/div[1]/div/div/div/div[3]'
+
+ChangePasswordPage_changePasswordEmpty: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/div[1]/p[1]'
+changePassword5: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/div[1]/p[2]'
+changePassword51: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/div[1]/p[3]'
+
+ChangePasswordPage_EmptyConfirmPassword: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/div/p[1]'
+ChangePasswordPage_changePasswordMinimum: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/div/p[2]'
+ChangePasswordPage_changePasswordMaximum: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/div/p[3]'
+
+#Change Settings Page
+SettingPage_FirstName: '//input[@ng-model="settingsAccount.firstName"]'
+SettingPage_EmptyFirstName: '/html/body/div[3]/div[1]/div/div/div/form/div[1]/div/p[1]'
+
+SettingPage_LastName: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/input'
+SettingPage_EmptyLastName: '/html/body/div[3]/div[1]/div/div/div/form/div[2]/div/p[1]'
+
+SettingPage_Email: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/input'
+SettingPage_ErrorEmptyEmail: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/div/p[1]'
+SettingPage_InvalidEmailError: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/div/p[2]'
+SettingPage_EmailMinimum: '/html/body/div[3]/div[1]/div/div/div/form/div[3]/div/p[3]'
+
+SettingPage_SaveButton: '/html/body/div[3]/div[1]/div/div/div/form/button'
+SettingPage_Success: '/html/body/div[3]/div[1]/div/div/div/div[3]/strong'
+
+
+#Menu
+Menu_Home: '//*[@id="navbar-collapse"]/ul/li[1]/a[2]'
+Menu_Settings: './/*[@id="navbar-collapse"]/ul/li[3]/ul/li[1]/a'
+Menu_Password: '//*[@id="navbar-collapse"]/ul/li[3]/ul/li[2]/a/span[2]'
+Menu_Sessions: './/*[@id="navbar-collapse"]/ul/li[3]/ul/li[3]/a/span[2]'
+Menu_Logout: '//*[@id="navbar-collapse"]/ul/li[3]/ul/li[4]/a'
+Menu_EntitiesMain: '//span[@translate="global.menu.entities.main"]'
+#Menu_EntitiesStaff: '//span[@translate="global.menu.entities.staff"]'
+Menu_EntitiesStaff: '//*[@id="navbar-collapse"]/ul/li[2]/ul/li[2]/a'
+Menu_EntitiesBranch: '//span[@translate="global.menu.entities.branch"]'
+Menu_AccountOption: '//*[@id="navbar-collapse"]/ul/li[2]/a/span/span[2]'
+Menu_AccountLink: './/*[@id="navbar-collapse"]/ul/li[2]/a'
+Menu_RegisterLink: './/*[@id="navbar-collapse"]/ul/li[2]/ul/li[2]/a/span[2]'
+Menu_AuthenticateLink: '//*[@id="navbar-collapse"]/ul/li[2]/ul/li[1]/a/span[2]'
+
+#Password Strength Bar
+Password_Password_StrengthBar1: './/*[@id="strengthBar"]/li[1]'
+Password_StrengthBar2: './/*[@id="strengthBar"]/li[2]'
+Password_StrengthBar3: './/*[@id="strengthBar"]/li[3]'
+Password_StrengthBar4: './/*[@id="strengthBar"]/li[4]'
+Password_StrengthBar5: './/*[@id="strengthBar"]/li[5]'
+
+#Sessions
+SessionPage_FirstIP: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr[1]/td[1]'
+SessionPage_UserAgentFirstSession: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr[1]/td[2]'
+SessionPage_FirstDate: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr[1]/td[3]'
+SessionPage_InvalidateButtonFirstSession: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr[1]/td[4]/button'
+
+SessionPage_SecondIP: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr[2]/td[1]'
+SessionPage_SecondUserAgent: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr[2]/td[2]'
+SessionPage_SecondDate: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr[2]/td[3]'
+SessionPage_InvalidateButtonSecondSession: '/html/body/div[3]/div[1]/div/div[3]/table/tbody/tr/td[4]/button'
+SessionSuccessMessage: '/html/body/div[3]/div[1]/div/div[1]/strong'
+
+
+ErrorMessage: '//*[@class="alert alert-danger ng-scope"]'
+WelcomeMessage: '//*[@class="ng-scope"]'
+navbar_toggle_on: '//*[@class="navbar-toggle"&&@aria-expanded="true"]'
+navbar_toggle_off: '//*[@class="navbar-toggle"&&@aria-expanded="false"]'
+loginScreenAccountMenuBar: '//*[@id="navbar-collapse"]/ul/li[3]/a/span/span[2]'
+#loginScreenAccountMenuBar: '//*[@translate="global.menu.account.main"]'
+LoginScreenAccountLinkHomePage: '//*[@id="navbar-collapse"]/ul/li[3]/a/span/span[1]'
+HomeButtonMenuBar: '//*[@id="navbar-collapse"]/ul/li[1]/a[2]/span[2]'
+
+
+
+#########################
+StaffPage_CreateButton: '/html/body/div[3]/div[1]/div/div[1]/div/div[1]/button/span[2]'
+StaffPage_NameOfStaff: './/*[@id="saveStaffModal"]/div/div/form/div[2]/div[2]/input'
+Entities: '//*[@translate="global.menu.entities.main"]'
+StaffPage_SaveButton: '//*[@type="submit"]'
+StaffPage_CancelButton: '//*[@translate="entity.action.cancel"]'
+StaffPage_NameOfStaffScreen: '/html/body/div[3]/div[1]/div/div[4]/table/tbody/tr/td[2]'
+DifferentPattern: '//*[@translate="entity.validation.pattern"]'
+StaffPage_MaximimChar: '//*[@translate="entity.validation.maxlength"]'
+StaffPage_ViewPage: '/html/body/div[3]/div[1]/div/div/table/tbody/tr[1]/td[2]/input'
+StaffPage_StaffViewButton: '//*[@translate="entity.action.view"]'
+StaffPage_EditButton: '//*[@translate="entity.action.edit"]'
+StaffPage_DeleteButton: '/html/body/div[3]/div[1]/div/div[4]/table/tbody/tr[1]/td[4]/button[3]/span[2]'
+StaffPage_DeletePopup: '//*[@id="deleteStaffConfirmation"]/div/div/form/div[3]/button[2]'
+SearchTextBox: '/html/body/div[3]/div[1]/div/div[1]/div/div[2]/form/div/input'
+SearchTextButton: 'button.Search a Staff'
+SearchButton: '//*[@ng-click="search()"]'
+
+
+
+#Branch
+EntitiesBranchLink: '//*[@id="navbar-collapse"]/ul/li[2]/ul/li[1]/a'
+BranchPage_Create: '//*[@translate="gurukulaApp.branch.home.createLabel"]'
+BranchPage_BranchName: '//*[@id="saveBranchModal"]/div/div/form/div[2]/div[2]/input'
+BranchPage_Code: '//*[@id="saveBranchModal"]/div/div/form/div[2]/div[3]/input'
+BranchPage_SaveButton: '//*[@type="submit"]'
+BranchNameInSearch: '/html/body/div[3]/div[1]/div/div[4]/table/tbody/tr[1]/td[2]'
+BranchPage_CancelButton: '//*[@translate="entity.action.cancel"]'
+BranchPage_ErrorMinumumLength: '//*[@translate="entity.validation.minlength"]'
+BranchPage_CodeDifferentPattern: '//*[@id="saveBranchModal"]/div/div/form/div[2]/div[3]/div/p[4]'
+BranchPage_CodeMinimumCharacter: '//*[@id="saveBranchModal"]/div/div/form/div[2]/div[3]/div/p[2]'
+BranchPage_ViewButton: '//*[@translate="entity.action.view"]'
+BranchPage_EditButton: '//*[@translate="entity.action.edit"]'
+BranchPage_DeleteButton: '/html/body/div[3]/div[1]/div/div[4]/table/tbody/tr/td[4]/button[3]/span[2]'
+BranchPage_DeletePopup: '//*[@id="deleteBranchConfirmation"]/div/div/form/div[3]/button[2]/span[2]'
+BranchPage_ViewPage: '/html/body/div[3]/div[1]/div/div/table/tbody/tr[1]/td[2]/input'
+BranchPage_EditPopup: '//*[@id="saveBranchModal"]/div/div/form/div[2]/div[2]/input'
+BranchPage_SavePopup: '//*[@translate="entity.action.save"]'
+BranchSearchScreen: '/html/body/div[3]/div[1]/div/div[4]/table/tbody/tr/td[2]'
+BranchPage_CreateCancelButton: '//*[@id="saveBranchModal"]/div/div/form/div[3]/button[1]/span[2]'
+BranchSearchPageTitle: '//*[@translate="gurukulaApp.branch.home.title"]'
+
+#QuickSpin
+
+HomePage_Game: '/html/body/div[2]/section[4]/div[2]/a[5]/div/span'
+GamePage_PlayButton: '//*[@class="btn desktop-link js-play-game"]'
+GamePage_iframe: '//*[@class="game-iframe game-iframe_show game-iframe_ratio43"]'
+container: '//*[@id="qs_gameUIRoot"]'
+GamePagecontinueButton: '//*[@id="ContinueButton"]'
+GamePagePlayTableMenuButton: '//*[@id="PaytableMenuButton"]'
+GamePageGameRulesMenuButton: '//*[@id="GameRulesMenuButton"]'
+GamePageGameHistoryMenuButton: '//*[@id="GameHistoryMenuButton"]'
+GamePageBalanceValue: '//*[@id="balancefield_value"]'
+GamePageBetValue: '//*[@id="totalbetfield_value"]'
+GamePage_fastplaybutton: '//*[@id="fastplaybutton"]'
+GamePage_AutoplayButton: '//*[@id="AutoplayButton"]'
+GamePageShortCutAuto: '//*[@id="AutoplayShortcutButton"]'
+GamePageMenuButton: '//*[@id="MenuButtonOpen"]'
+GamePagedefaultspinbutton: '//*[@id="basegame_default"]'
+GamePageSpin: '//*[@id="DefaultSpinButton"]'
+GamePage4Euro: '//*[@id="TotalBetSelectionGrid"]/button[9]'
+GamePage120Euro: '//*[@id="TotalBetSelectionGrid"]/button[6]'
+GamePage40Euro: '//*[@id="TotalBetSelectionGrid"]/button[2]'
+GamePageBetShortCutButton: '//*[@id="BetShortcutButton"]'
+GamePage_TotalBetButton: '//*[@id="TotalBetButton"]'
+GamePage_WinContainer: '//*[@id="BottomWinContainer"]'
+GamePage_NextButton: '//*[@class="next"]'
+GamePage_PreviousButton: '//*[@class="next"]'
+GamePage_settingMenuButton: '//*[@id="settingsmenubutton_symbol"]'
+GamePage_SettingDetails: '//*[@id="quick_settings_default"]'
+settingDetailsPlaySound: '//*[@id="SoundEnabledButton"]'
+GamePage_settingDetailsUseSpace: '//*[@id="UseSpaceForSpinButton"]'
+GamePage_setingDetailsShowSplash: '//*[@id="ShouldShowSplashButton"]'
+GamePageBalanceField: '//*[@id="BalanceField"]'
+GamePage_BetMultiplier: '//*[@id="BetMultiplierField"]'
+#GamePage_iframe: '/html/body/div[2]/section[3]/div/iframe'
+
+

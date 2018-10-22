@@ -1,0 +1,51 @@
+[
+  {
+    "id": "To-verify-the-performance-and-load-testing-of-application",
+    "name": "To verify the performance and load testing of application",
+    "description": "",
+    "line": 2,
+    "keyword": "Feature",
+    "tags": [
+      {
+        "name": "@sprint1",
+        "line": 1
+      }
+    ],
+    "uri": "C:\\Users\\ADMIN\\Desktop\\framework\\bdd\\features\\gherkins_featureFiles\\features\\nftPerformance.feature",
+    "elements": [
+      {
+        "name": "User should be able to see and analyze the data related to load of multiple user",
+        "id": "To-verify-the-performance-and-load-testing-of-application;user-should-be-able-to-see-and-analyze-the-data-related-to-load-of-multiple-user",
+        "line": 10,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "User hit load of \"100\" users on url \"https://quickspin.com/\" and generate report",
+            "line": 6,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 707983138
+            },
+            "match": {
+              "location": "C:\\Users\\ADMIN\\Desktop\\framework\\bdd\\features\\gherkins_featureFiles\\step_definitions\\common_Stepdef.js:166"
+            }
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1018862
+            },
+            "match": {
+              "location": "C:\\Users\\ADMIN\\Desktop\\framework\\bdd\\features\\additional_utilities\\failed-image.js:3"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
